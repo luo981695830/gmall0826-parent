@@ -104,6 +104,8 @@
 
     <modules>
         <module>gmall0826-common</module>
+        <module>gmall-mock</module>
+        <module>gmall0826-mock</module>
     </modules>
 
 
