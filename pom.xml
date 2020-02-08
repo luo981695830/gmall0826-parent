@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.12.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <groupId>com.atguigu.gmall0826-parent</groupId>
     <artifactId>gmall0826-parent</artifactId>
     <packaging>pom</packaging>
@@ -101,12 +108,11 @@
         </dependencies>
     </dependencyManagement>
 
-
     <modules>
         <module>gmall0826-common</module>
-        <module>gmall-mock</module>
         <module>gmall0826-mock</module>
-    </modules>
+        <module>gmall0826-logger</module>
 
+    </modules>
 
 </project>

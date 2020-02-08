@@ -1,4 +1,4 @@
-package com.atguigu.gmall0826.gmall0826logger;
+package com.atguigu.gmall0826.logger;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
